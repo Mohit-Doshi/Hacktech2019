@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D8D9FA05AA060B8FB297BC0D17885D20 /* SnapSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 392805E245634CD68C4CB06957C720AF /* Build configuration list for PBXAggregateTarget "SnapSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				41422F4BC1A9289F93645701CEF548A5 /* PBXTargetDependency */,
+				8028AB56A424C37B3957B3657B1D07E5 /* PBXTargetDependency */,
+			);
+			name = SnapSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0862EF805EFD77261A122ABFD2EC24D7 /* PINOperation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC587A532CE83518CF4932D7DC015C5E /* PINOperation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EEB18DB64AAB26D423F5FE7A254E775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		11F1F703671F2E3855A206F5F487BC1F /* PINOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 372A287852B673123907688C994F104B /* PINOperationQueue.m */; };
+		23915544BBEBDDCD5AAD737D9543F4B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		278404895591C0F29AD2D6FC8AB98913 /* PINOperation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 090A5C4934ABFC837376F092FC2143DA /* PINOperation-dummy.m */; };
+		2BF9DBDCDF85AF548FB6145907FC2B7C /* PINCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E537EA377B01A7A055DD6775FE35FF /* PINCache-dummy.m */; };
+		314DACE43E2229850A9439EC9B56EC7E /* PINOperationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C282EA6F5D40817DCB9789C095D6254D /* PINOperationGroup.m */; };
+		354C0A2E7850DB276E05639A84CC6CF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3F02E16FCAF4EF667DF29AA248B76320 /* Pods-Hacktechproj-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DB96FF9E36CA84AE24F56CF64F5434 /* Pods-Hacktechproj-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4858785C304EAA3F49BFD43A53D4160F /* PINCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E044706DC83ADADA4C7E9A77D49E2DBF /* PINCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4965E1D6FF3E6A30FA40DF14EDF663F5 /* Nullability.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B06CF61955517A827030699B02D5075 /* Nullability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52493378592C2DAF2FDDC2C0E55568BA /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7556C117825C34F16F0C2BB5193952 /* PINDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE8F8277DB207CF66B7D98D83F9EA84 /* PINOperationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 1316940C4D3817355C4DB7D09795F3F5 /* PINOperationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62CAE97036274D35A16A72D4BCB12A6B /* PINOperationGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 40054B42DA3AB3572C075056AE505917 /* PINOperationGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66BB4E531F9321EBA0CD2D01C013F68B /* Pods-Hacktechproj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FAF5C93B4956D528877F4AB8300729 /* Pods-Hacktechproj-dummy.m */; };
+		74F46FDFA4FDF1CB7247E827FEE6D3BA /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86604EA57C66E61E48BFCE8BFE7A37F4 /* PINMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7C4CBAF15CD8DFFEFB4187F3C17A1341 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B3BD7024C61D9E5B183ADE992A4C524F /* PINCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE12A6D239E758329FE1879DEAC0799 /* PINOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE84EFF558CD36182669DCF5CD50186 /* PINOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81BE5F5287079F8C36BBBE7E0900A928 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3701F83D359B103C76481D1BB3888EDA /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98D7005AEEEE984FE5C75DCF879CA33D /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE049E6A3A1EA913BDCB7AFCF7BA7FA /* PINCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6C63371A7C41D5178A0C6E6BD7EE103 /* PINOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3159EDC867085FA3D704A375B017CF8D /* PINOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8F2BA15419957313614012DE159E56B /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BCD2CF6B6B6FB27F7ADA7D71B8484 /* PINDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ECC0947C74863804A9F9A2C26B123E29 /* PINCacheObjectSubscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = D14EBD1A8E34912930ECF91AAB59B311 /* PINCacheObjectSubscripting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF3EAAD36FA7D0DBF7790F4240A9977D /* PINOperationTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E063E5A71E48AD664FC0DD0FDF23CC26 /* PINOperationTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169454F0E1A5460D0AEC203CB91D1278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50FB3EC50169B780BAE2A1FC76443CB;
+			remoteInfo = PINCache;
+		};
+		45B6F7AE4E68F911EF328B1E1457784E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50FB3EC50169B780BAE2A1FC76443CB;
+			remoteInfo = PINCache;
+		};
+		8CBD5C624268FDC6466D83947B65F38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D9FA05AA060B8FB297BC0D17885D20;
+			remoteInfo = SnapSDK;
+		};
+		9A1EC5CAFCF0BFEBCFF19A95B7C045D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9184020C6882E3B509896838B95FF8F6;
+			remoteInfo = PINOperation;
+		};
+		F6F20D5FAED6DDDCF92D197230CEA47E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9184020C6882E3B509896838B95FF8F6;
+			remoteInfo = PINOperation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090A5C4934ABFC837376F092FC2143DA /* PINOperation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PINOperation-dummy.m"; sourceTree = "<group>"; };
+		1316940C4D3817355C4DB7D09795F3F5 /* PINOperationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINOperationMacros.h; path = Source/PINOperationMacros.h; sourceTree = "<group>"; };
+		232B0D1E3B93EEF8C483766BEF1CA029 /* PINOperation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINOperation-prefix.pch"; sourceTree = "<group>"; };
+		290A7DE74F1BFF84438A2DCCE8A6AC65 /* SnapSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapSDK.xcconfig; sourceTree = "<group>"; };
+		2EF901AC7BF48FD389AA519D7E699482 /* PINCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PINCache.modulemap; sourceTree = "<group>"; };
+		3126A278C347091D8172F6C02AB64D44 /* Pods-Hacktechproj.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hacktechproj.modulemap"; sourceTree = "<group>"; };
+		3159EDC867085FA3D704A375B017CF8D /* PINOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINOperation.h; path = Source/PINOperation.h; sourceTree = "<group>"; };
+		329AA5A88D166454A201A11496BE6DF7 /* SCSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCoreKit.framework; sourceTree = "<group>"; };
+		3701F83D359B103C76481D1BB3888EDA /* PINMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINMemoryCache.h; path = PINCache/PINMemoryCache.h; sourceTree = "<group>"; };
+		372A287852B673123907688C994F104B /* PINOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINOperationQueue.m; path = Source/PINOperationQueue.m; sourceTree = "<group>"; };
+		3AE049E6A3A1EA913BDCB7AFCF7BA7FA /* PINCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINCache.m; path = PINCache/PINCache.m; sourceTree = "<group>"; };
+		40054B42DA3AB3572C075056AE505917 /* PINOperationGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINOperationGroup.h; path = Source/PINOperationGroup.h; sourceTree = "<group>"; };
+		46E537EA377B01A7A055DD6775FE35FF /* PINCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PINCache-dummy.m"; sourceTree = "<group>"; };
+		4A6436F3FF3BC4F9803BAB02070F5A17 /* PINOperation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PINOperation-Info.plist"; sourceTree = "<group>"; };
+		4B06CF61955517A827030699B02D5075 /* Nullability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nullability.h; path = PINCache/Nullability.h; sourceTree = "<group>"; };
+		5089888C15916493DC2FC185F1420D50 /* PINCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PINCache-Info.plist"; sourceTree = "<group>"; };
+		52FAF5C93B4956D528877F4AB8300729 /* Pods-Hacktechproj-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hacktechproj-dummy.m"; sourceTree = "<group>"; };
+		557B65404A074C22607FBF46D04F539D /* SCSDKBitmojiKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKBitmojiKit.framework; sourceTree = "<group>"; };
+		6605314144ED6924479F5564A2237788 /* PINOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PINOperation.framework; path = PINOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		704ECE9A85612B7B7E40F3125DD20E05 /* PINCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINCache.xcconfig; sourceTree = "<group>"; };
+		7B6BCD2CF6B6B6FB27F7ADA7D71B8484 /* PINDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINDiskCache.m; path = PINCache/PINDiskCache.m; sourceTree = "<group>"; };
+		7B9877D9CEB019E691B5D162B34415AF /* PINCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PINCache.framework; path = PINCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86604EA57C66E61E48BFCE8BFE7A37F4 /* PINMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINMemoryCache.m; path = PINCache/PINMemoryCache.m; sourceTree = "<group>"; };
+		8BE84EFF558CD36182669DCF5CD50186 /* PINOperationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINOperationQueue.h; path = Source/PINOperationQueue.h; sourceTree = "<group>"; };
+		99DD02B17A47B3C20A3907DF9AF67F50 /* PINOperation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINOperation.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A41AC131738AD18D84007100A9D865AF /* Pods-Hacktechproj-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hacktechproj-Info.plist"; sourceTree = "<group>"; };
+		AC587A532CE83518CF4932D7DC015C5E /* PINOperation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINOperation-umbrella.h"; sourceTree = "<group>"; };
+		AD53172EBA217E435715D48EF4624B66 /* Pods-Hacktechproj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hacktechproj.debug.xcconfig"; sourceTree = "<group>"; };
+		AF584D6CAF2F7A349F3D8C7616C2864A /* SCSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKLoginKit.framework; sourceTree = "<group>"; };
+		AF7556C117825C34F16F0C2BB5193952 /* PINDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINDiskCache.h; path = PINCache/PINDiskCache.h; sourceTree = "<group>"; };
+		B3BD7024C61D9E5B183ADE992A4C524F /* PINCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCache.h; path = PINCache/PINCache.h; sourceTree = "<group>"; };
+		B8196AD4DE4A12DD1E73AABB4AC93455 /* PINCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINCache-prefix.pch"; sourceTree = "<group>"; };
+		C282EA6F5D40817DCB9789C095D6254D /* PINOperationGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINOperationGroup.m; path = Source/PINOperationGroup.m; sourceTree = "<group>"; };
+		C7DB96FF9E36CA84AE24F56CF64F5434 /* Pods-Hacktechproj-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hacktechproj-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFDA963F1F8E9AFC49B58DEF3B9DEF01 /* Pods-Hacktechproj-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hacktechproj-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFE097313E751294A019D802E0180972 /* Pods-Hacktechproj-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hacktechproj-frameworks.sh"; sourceTree = "<group>"; };
+		D14EBD1A8E34912930ECF91AAB59B311 /* PINCacheObjectSubscripting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCacheObjectSubscripting.h; path = PINCache/PINCacheObjectSubscripting.h; sourceTree = "<group>"; };
+		E044706DC83ADADA4C7E9A77D49E2DBF /* PINCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINCache-umbrella.h"; sourceTree = "<group>"; };
+		E063E5A71E48AD664FC0DD0FDF23CC26 /* PINOperationTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINOperationTypes.h; path = Source/PINOperationTypes.h; sourceTree = "<group>"; };
+		E14CF6FCA40030808E6CC4D344CBF10C /* PINOperation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PINOperation.modulemap; sourceTree = "<group>"; };
+		EAF4AB0689A40B03EF44DB480496EF99 /* Pods-Hacktechproj-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hacktechproj-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB7AA38B5804D6CA0620870F349E3567 /* Pods-Hacktechproj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hacktechproj.release.xcconfig"; sourceTree = "<group>"; };
+		F412C4E855C740AFF95D2F7C1F8A0058 /* Pods_Hacktechproj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hacktechproj.framework; path = "Pods-Hacktechproj.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC1928818482E678079ED6003140152 /* SCSDKCreativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCreativeKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A0636539D5B89BDA7AE48D1FA96F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354C0A2E7850DB276E05639A84CC6CF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7A32E75C485483272DBF33D68E13ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23915544BBEBDDCD5AAD737D9543F4B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D137E7A7BBB9F721DA38F44AD76DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEB18DB64AAB26D423F5FE7A254E775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E223D363311A5644C5EB4340D21F54 /* PINCache */ = {
+			isa = PBXGroup;
+			children = (
+				4B06CF61955517A827030699B02D5075 /* Nullability.h */,
+				B3BD7024C61D9E5B183ADE992A4C524F /* PINCache.h */,
+				3AE049E6A3A1EA913BDCB7AFCF7BA7FA /* PINCache.m */,
+				D14EBD1A8E34912930ECF91AAB59B311 /* PINCacheObjectSubscripting.h */,
+				AF7556C117825C34F16F0C2BB5193952 /* PINDiskCache.h */,
+				7B6BCD2CF6B6B6FB27F7ADA7D71B8484 /* PINDiskCache.m */,
+				3701F83D359B103C76481D1BB3888EDA /* PINMemoryCache.h */,
+				86604EA57C66E61E48BFCE8BFE7A37F4 /* PINMemoryCache.m */,
+				AD909D27043B791EA817C86A765235C3 /* Support Files */,
+			);
+			name = PINCache;
+			path = PINCache;
+			sourceTree = "<group>";
+		};
+		361AE5E53B39F3845A4B8D0F4A4381E9 /* SCSDKBitmojiKit */ = {
+			isa = PBXGroup;
+			children = (
+				BC2AF367BDE0BD68E1DAF59330E57C92 /* Frameworks */,
+			);
+			name = SCSDKBitmojiKit;
+			sourceTree = "<group>";
+		};
+		538D0F0BED9B50E5C78F704407BFE758 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14CF6FCA40030808E6CC4D344CBF10C /* PINOperation.modulemap */,
+				99DD02B17A47B3C20A3907DF9AF67F50 /* PINOperation.xcconfig */,
+				090A5C4934ABFC837376F092FC2143DA /* PINOperation-dummy.m */,
+				4A6436F3FF3BC4F9803BAB02070F5A17 /* PINOperation-Info.plist */,
+				232B0D1E3B93EEF8C483766BEF1CA029 /* PINOperation-prefix.pch */,
+				AC587A532CE83518CF4932D7DC015C5E /* PINOperation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PINOperation";
+			sourceTree = "<group>";
+		};
+		5E4D71F6763620B0D75E3D8D7CFB9F4F /* SCSDKCreativeKit */ = {
+			isa = PBXGroup;
+			children = (
+				8640E6830F832098E46E77AA1CE4242A /* Frameworks */,
+			);
+			name = SCSDKCreativeKit;
+			sourceTree = "<group>";
+		};
+		65EA1A6CE15D86235F1E6981E0913D76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B9877D9CEB019E691B5D162B34415AF /* PINCache.framework */,
+				6605314144ED6924479F5564A2237788 /* PINOperation.framework */,
+				F412C4E855C740AFF95D2F7C1F8A0058 /* Pods_Hacktechproj.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E586FA194DB4C2A493FB13D2081BBD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B5430D3B17DD0F3D55FBC9911DDB872 /* Pods-Hacktechproj */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8640E6830F832098E46E77AA1CE4242A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC1928818482E678079ED6003140152 /* SCSDKCreativeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B5430D3B17DD0F3D55FBC9911DDB872 /* Pods-Hacktechproj */ = {
+			isa = PBXGroup;
+			children = (
+				3126A278C347091D8172F6C02AB64D44 /* Pods-Hacktechproj.modulemap */,
+				CFDA963F1F8E9AFC49B58DEF3B9DEF01 /* Pods-Hacktechproj-acknowledgements.markdown */,
+				EAF4AB0689A40B03EF44DB480496EF99 /* Pods-Hacktechproj-acknowledgements.plist */,
+				52FAF5C93B4956D528877F4AB8300729 /* Pods-Hacktechproj-dummy.m */,
+				CFE097313E751294A019D802E0180972 /* Pods-Hacktechproj-frameworks.sh */,
+				A41AC131738AD18D84007100A9D865AF /* Pods-Hacktechproj-Info.plist */,
+				C7DB96FF9E36CA84AE24F56CF64F5434 /* Pods-Hacktechproj-umbrella.h */,
+				AD53172EBA217E435715D48EF4624B66 /* Pods-Hacktechproj.debug.xcconfig */,
+				EB7AA38B5804D6CA0620870F349E3567 /* Pods-Hacktechproj.release.xcconfig */,
+			);
+			name = "Pods-Hacktechproj";
+			path = "Target Support Files/Pods-Hacktechproj";
+			sourceTree = "<group>";
+		};
+		AD909D27043B791EA817C86A765235C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF901AC7BF48FD389AA519D7E699482 /* PINCache.modulemap */,
+				704ECE9A85612B7B7E40F3125DD20E05 /* PINCache.xcconfig */,
+				46E537EA377B01A7A055DD6775FE35FF /* PINCache-dummy.m */,
+				5089888C15916493DC2FC185F1420D50 /* PINCache-Info.plist */,
+				B8196AD4DE4A12DD1E73AABB4AC93455 /* PINCache-prefix.pch */,
+				E044706DC83ADADA4C7E9A77D49E2DBF /* PINCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PINCache";
+			sourceTree = "<group>";
+		};
+		B7D1EE54AB771530B91CE4A140BD140B /* SnapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				361AE5E53B39F3845A4B8D0F4A4381E9 /* SCSDKBitmojiKit */,
+				5E4D71F6763620B0D75E3D8D7CFB9F4F /* SCSDKCreativeKit */,
+				FED429B964068D3D5E411C9DA86E6F25 /* SCSDKLoginKit */,
+				DA4707E1DE93EE5816E7A0F9C1680C86 /* Support Files */,
+			);
+			name = SnapSDK;
+			path = SnapSDK;
+			sourceTree = "<group>";
+		};
+		BC2AF367BDE0BD68E1DAF59330E57C92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				557B65404A074C22607FBF46D04F539D /* SCSDKBitmojiKit.framework */,
+				329AA5A88D166454A201A11496BE6DF7 /* SCSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99F46225F601A57D63F233D2F644352 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13E223D363311A5644C5EB4340D21F54 /* PINCache */,
+				DA018A7CE842D1AF12F5C7DABCA2E1BB /* PINOperation */,
+				B7D1EE54AB771530B91CE4A140BD140B /* SnapSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C99F46225F601A57D63F233D2F644352 /* Pods */,
+				65EA1A6CE15D86235F1E6981E0913D76 /* Products */,
+				6E586FA194DB4C2A493FB13D2081BBD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA018A7CE842D1AF12F5C7DABCA2E1BB /* PINOperation */ = {
+			isa = PBXGroup;
+			children = (
+				3159EDC867085FA3D704A375B017CF8D /* PINOperation.h */,
+				40054B42DA3AB3572C075056AE505917 /* PINOperationGroup.h */,
+				C282EA6F5D40817DCB9789C095D6254D /* PINOperationGroup.m */,
+				1316940C4D3817355C4DB7D09795F3F5 /* PINOperationMacros.h */,
+				8BE84EFF558CD36182669DCF5CD50186 /* PINOperationQueue.h */,
+				372A287852B673123907688C994F104B /* PINOperationQueue.m */,
+				E063E5A71E48AD664FC0DD0FDF23CC26 /* PINOperationTypes.h */,
+				538D0F0BED9B50E5C78F704407BFE758 /* Support Files */,
+			);
+			name = PINOperation;
+			path = PINOperation;
+			sourceTree = "<group>";
+		};
+		DA4707E1DE93EE5816E7A0F9C1680C86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				290A7DE74F1BFF84438A2DCCE8A6AC65 /* SnapSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapSDK";
+			sourceTree = "<group>";
+		};
+		EE49ED90A0DF4CEB89940C124F80A03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF584D6CAF2F7A349F3D8C7616C2864A /* SCSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FED429B964068D3D5E411C9DA86E6F25 /* SCSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE49ED90A0DF4CEB89940C124F80A03F /* Frameworks */,
+			);
+			name = SCSDKLoginKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EBBC7ECCF6E8AF636E00E53D070B43E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4965E1D6FF3E6A30FA40DF14EDF663F5 /* Nullability.h in Headers */,
+				4858785C304EAA3F49BFD43A53D4160F /* PINCache-umbrella.h in Headers */,
+				7C4CBAF15CD8DFFEFB4187F3C17A1341 /* PINCache.h in Headers */,
+				ECC0947C74863804A9F9A2C26B123E29 /* PINCacheObjectSubscripting.h in Headers */,
+				52493378592C2DAF2FDDC2C0E55568BA /* PINDiskCache.h in Headers */,
+				81BE5F5287079F8C36BBBE7E0900A928 /* PINMemoryCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FA120F02AE2FEB1C0797E0486FA1B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F02E16FCAF4EF667DF29AA248B76320 /* Pods-Hacktechproj-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C1C690F79E829FEAA5CD181E2C5C3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0862EF805EFD77261A122ABFD2EC24D7 /* PINOperation-umbrella.h in Headers */,
+				B6C63371A7C41D5178A0C6E6BD7EE103 /* PINOperation.h in Headers */,
+				62CAE97036274D35A16A72D4BCB12A6B /* PINOperationGroup.h in Headers */,
+				5CE8F8277DB207CF66B7D98D83F9EA84 /* PINOperationMacros.h in Headers */,
+				7CE12A6D239E758329FE1879DEAC0799 /* PINOperationQueue.h in Headers */,
+				FF3EAAD36FA7D0DBF7790F4240A9977D /* PINOperationTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9184020C6882E3B509896838B95FF8F6 /* PINOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85A013B1576B7C0CC5C4286D6295FDA /* Build configuration list for PBXNativeTarget "PINOperation" */;
+			buildPhases = (
+				F6C1C690F79E829FEAA5CD181E2C5C3C /* Headers */,
+				5D0EB623B64AE817B5D0F4CC9EAD3AFD /* Sources */,
+				EF7A32E75C485483272DBF33D68E13ED /* Frameworks */,
+				C41D97BE2E280D0B202889517DFFD067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PINOperation;
+			productName = PINOperation;
+			productReference = 6605314144ED6924479F5564A2237788 /* PINOperation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D50FB3EC50169B780BAE2A1FC76443CB /* PINCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EA7230631FCE67ABC689594C86C53E /* Build configuration list for PBXNativeTarget "PINCache" */;
+			buildPhases = (
+				9EBBC7ECCF6E8AF636E00E53D070B43E /* Headers */,
+				87F5529EF3C100DE6CEAABBAB1CDA139 /* Sources */,
+				40A0636539D5B89BDA7AE48D1FA96F07 /* Frameworks */,
+				412E9E1B49CB0084F9DC04525160FBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PINCache;
+			productName = PINCache;
+			productReference = 7B9877D9CEB019E691B5D162B34415AF /* PINCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAEE4AA9903C052843EF854862464450 /* Pods-Hacktechproj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B178408088714E07E24162C02617E9A0 /* Build configuration list for PBXNativeTarget "Pods-Hacktechproj" */;
+			buildPhases = (
+				B6FA120F02AE2FEB1C0797E0486FA1B9 /* Headers */,
+				E9BF6673411543F796D4DF4BEE634426 /* Sources */,
+				F3D137E7A7BBB9F721DA38F44AD76DB7 /* Frameworks */,
+				87AF4512C3B58F930EA81ECEFFAD5EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98172F0DDF64DC0054E3126A068517C3 /* PBXTargetDependency */,
+				247EE531B1FA82B989F6DF7F6C0BB2F5 /* PBXTargetDependency */,
+				62B58334CD7DF0670299A0E69D57AE48 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hacktechproj";
+			productName = "Pods-Hacktechproj";
+			productReference = F412C4E855C740AFF95D2F7C1F8A0058 /* Pods_Hacktechproj.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 65EA1A6CE15D86235F1E6981E0913D76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50FB3EC50169B780BAE2A1FC76443CB /* PINCache */,
+				9184020C6882E3B509896838B95FF8F6 /* PINOperation */,
+				EAEE4AA9903C052843EF854862464450 /* Pods-Hacktechproj */,
+				D8D9FA05AA060B8FB297BC0D17885D20 /* SnapSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412E9E1B49CB0084F9DC04525160FBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AF4512C3B58F930EA81ECEFFAD5EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41D97BE2E280D0B202889517DFFD067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0EB623B64AE817B5D0F4CC9EAD3AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278404895591C0F29AD2D6FC8AB98913 /* PINOperation-dummy.m in Sources */,
+				314DACE43E2229850A9439EC9B56EC7E /* PINOperationGroup.m in Sources */,
+				11F1F703671F2E3855A206F5F487BC1F /* PINOperationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F5529EF3C100DE6CEAABBAB1CDA139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF9DBDCDF85AF548FB6145907FC2B7C /* PINCache-dummy.m in Sources */,
+				98D7005AEEEE984FE5C75DCF879CA33D /* PINCache.m in Sources */,
+				B8F2BA15419957313614012DE159E56B /* PINDiskCache.m in Sources */,
+				74F46FDFA4FDF1CB7247E827FEE6D3BA /* PINMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BF6673411543F796D4DF4BEE634426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BB4E531F9321EBA0CD2D01C013F68B /* Pods-Hacktechproj-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247EE531B1FA82B989F6DF7F6C0BB2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINOperation;
+			target = 9184020C6882E3B509896838B95FF8F6 /* PINOperation */;
+			targetProxy = F6F20D5FAED6DDDCF92D197230CEA47E /* PBXContainerItemProxy */;
+		};
+		41422F4BC1A9289F93645701CEF548A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINCache;
+			target = D50FB3EC50169B780BAE2A1FC76443CB /* PINCache */;
+			targetProxy = 169454F0E1A5460D0AEC203CB91D1278 /* PBXContainerItemProxy */;
+		};
+		62B58334CD7DF0670299A0E69D57AE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapSDK;
+			target = D8D9FA05AA060B8FB297BC0D17885D20 /* SnapSDK */;
+			targetProxy = 8CBD5C624268FDC6466D83947B65F38F /* PBXContainerItemProxy */;
+		};
+		8028AB56A424C37B3957B3657B1D07E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINOperation;
+			target = 9184020C6882E3B509896838B95FF8F6 /* PINOperation */;
+			targetProxy = 9A1EC5CAFCF0BFEBCFF19A95B7C045D8 /* PBXContainerItemProxy */;
+		};
+		98172F0DDF64DC0054E3126A068517C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINCache;
+			target = D50FB3EC50169B780BAE2A1FC76443CB /* PINCache */;
+			targetProxy = 45B6F7AE4E68F911EF328B1E1457784E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35BAC5875369FC74D657A17DF2732762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DD02B17A47B3C20A3907DF9AF67F50 /* PINOperation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PINOperation/PINOperation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PINOperation/PINOperation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PINOperation/PINOperation.modulemap";
+				PRODUCT_MODULE_NAME = PINOperation;
+				PRODUCT_NAME = PINOperation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35CC87A854129ECD2E7210B5E8599B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7AA38B5804D6CA0620870F349E3567 /* Pods-Hacktechproj.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hacktechproj/Pods-Hacktechproj-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hacktechproj/Pods-Hacktechproj.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53674A6FDF5C7E4F521B2B2D084B383E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704ECE9A85612B7B7E40F3125DD20E05 /* PINCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PINCache/PINCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PINCache/PINCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PINCache/PINCache.modulemap";
+				PRODUCT_MODULE_NAME = PINCache;
+				PRODUCT_NAME = PINCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84E30AC6F8BF3ECF1F92E8391F02104F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD53172EBA217E435715D48EF4624B66 /* Pods-Hacktechproj.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hacktechproj/Pods-Hacktechproj-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hacktechproj/Pods-Hacktechproj.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA8D04FC6E8D6E47ADB8F008E9110E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290A7DE74F1BFF84438A2DCCE8A6AC65 /* SnapSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00486919A0CEDA2039F4B491643F574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290A7DE74F1BFF84438A2DCCE8A6AC65 /* SnapSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D22B5B1BD6E17CF19686493DFE2B1E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704ECE9A85612B7B7E40F3125DD20E05 /* PINCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PINCache/PINCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PINCache/PINCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PINCache/PINCache.modulemap";
+				PRODUCT_MODULE_NAME = PINCache;
+				PRODUCT_NAME = PINCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F84D8BE793D4EE8A79DE79D9A9C34B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99DD02B17A47B3C20A3907DF9AF67F50 /* PINOperation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PINOperation/PINOperation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PINOperation/PINOperation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PINOperation/PINOperation.modulemap";
+				PRODUCT_MODULE_NAME = PINOperation;
+				PRODUCT_NAME = PINOperation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EA7230631FCE67ABC689594C86C53E /* Build configuration list for PBXNativeTarget "PINCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22B5B1BD6E17CF19686493DFE2B1E98 /* Debug */,
+				53674A6FDF5C7E4F521B2B2D084B383E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392805E245634CD68C4CB06957C720AF /* Build configuration list for PBXAggregateTarget "SnapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00486919A0CEDA2039F4B491643F574 /* Debug */,
+				BA8D04FC6E8D6E47ADB8F008E9110E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B178408088714E07E24162C02617E9A0 /* Build configuration list for PBXNativeTarget "Pods-Hacktechproj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E30AC6F8BF3ECF1F92E8391F02104F /* Debug */,
+				35CC87A854129ECD2E7210B5E8599B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85A013B1576B7C0CC5C4286D6295FDA /* Build configuration list for PBXNativeTarget "PINOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84D8BE793D4EE8A79DE79D9A9C34B96 /* Debug */,
+				35BAC5875369FC74D657A17DF2732762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
