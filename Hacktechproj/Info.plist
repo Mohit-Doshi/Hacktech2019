@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To upload photos to Snapchat</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>To add photos in Snapchat stories and snaps</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -14,6 +18,22 @@
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+			<true/>
+			<key>NSTemporaryExceptionMinimumTLSVersion</key>
+			<string>TLSv1.1</string>
+			<key>http://randomuselessfact.appspot.com/random.json</key>
+			<dict/>
+		</dict>
+	</dict>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -48,7 +68,7 @@
 			<string>MoDo.Hacktechproj</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>htech19</string>
+				<string>Hacktechproj</string>
 			</array>
 		</dict>
 	</array>
@@ -57,12 +77,12 @@
 		<string>snapchat</string>
 		<string>bitmoji-sdk</string>
 		<string>itms-apps</string>
-		<string>htech19</string>
+		<string>Hacktechproj</string>
 	</array>
 	<key>SCSDKClientId</key>
-	<string>C2562637c-f637-4b84-9c02-932d964e103b</string>
+	<string>2562637c-f637-4b84-9c02-932d964e103b</string>
 	<key>SCSDKRedirectUrl</key>
-	<string>htech19://snapchat</string>
+	<string>Hacktechproj://thisappofmine</string>
 	<key>SCSDKScopes</key>
 	<array>
 		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
