@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Hacktechproj/Ranking+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Hacktechproj/Ranking+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:Hacktechproj.xcodeproj">
    </FileRef>
    <FileRef

@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6C0A88E7BA4B4B378B104E6A /* Pods_Hacktechproj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D58C9F9DD6356C57F4CB7D8 /* Pods_Hacktechproj.framework */; };
+		E4655026222BFAA5000F5DBA /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4655025222BFAA5000F5DBA /* ResultsViewController.swift */; };
+		E4655028222C0B81000F5DBA /* FactsApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4655027222C0B81000F5DBA /* FactsApiCall.swift */; };
+		E48D9253222C51640009A3FC /* Ranking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D9252222C51640009A3FC /* Ranking+CoreDataProperties.swift */; };
+		E48D9255222C51740009A3FC /* Ranking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D9254222C51730009A3FC /* Ranking+CoreDataClass.swift */; };
+		E48D9257222C52D50009A3FC /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D9256222C52D50009A3FC /* RankingViewController.swift */; };
+		E48D925B222C54ED0009A3FC /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D925A222C54ED0009A3FC /* RankingTableViewCell.swift */; };
+		E48D925D222C56610009A3FC /* RankingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D925C222C56610009A3FC /* RankingModel.swift */; };
 		E48EA96B222B3FD900D4484B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48EA96A222B3FD900D4484B /* AppDelegate.swift */; };
 		E48EA96D222B3FD900D4484B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48EA96C222B3FD900D4484B /* ViewController.swift */; };
 		E48EA970222B3FD900D4484B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48EA96E222B3FD900D4484B /* Main.storyboard */; };
@@ -22,6 +29,9 @@
 		E48EA988222B460C00D4484B /* SCSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E48EA981222B460C00D4484B /* SCSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E48EA989222B460C00D4484B /* SCSDKCreativeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48EA982222B460C00D4484B /* SCSDKCreativeKit.framework */; };
 		E48EA98A222B460C00D4484B /* SCSDKCreativeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E48EA982222B460C00D4484B /* SCSDKCreativeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4A0B722222B7CFE00E26CE4 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A0B721222B7CFD00E26CE4 /* UserEntity.swift */; };
+		E4A0B724222BAF3800E26CE4 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A0B723222BAF3800E26CE4 /* UIImage+Extension.swift */; };
+		E4A0B726222BBC5B00E26CE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A0B725222BBC5B00E26CE4 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +55,13 @@
 		04D8C475FC1F3C621A33AAE5 /* Pods-Hacktechproj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktechproj.debug.xcconfig"; path = "Target Support Files/Pods-Hacktechproj/Pods-Hacktechproj.debug.xcconfig"; sourceTree = "<group>"; };
 		7D58C9F9DD6356C57F4CB7D8 /* Pods_Hacktechproj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hacktechproj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DAA527D2CA99D197494E42 /* Pods-Hacktechproj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hacktechproj.release.xcconfig"; path = "Target Support Files/Pods-Hacktechproj/Pods-Hacktechproj.release.xcconfig"; sourceTree = "<group>"; };
+		E4655025222BFAA5000F5DBA /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		E4655027222C0B81000F5DBA /* FactsApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsApiCall.swift; sourceTree = "<group>"; };
+		E48D9252222C51640009A3FC /* Ranking+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ranking+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E48D9254222C51730009A3FC /* Ranking+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ranking+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48D9256222C52D50009A3FC /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		E48D925A222C54ED0009A3FC /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		E48D925C222C56610009A3FC /* RankingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingModel.swift; sourceTree = "<group>"; };
 		E48EA967222B3FD900D4484B /* Hacktechproj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hacktechproj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48EA96A222B3FD900D4484B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48EA96C222B3FD900D4484B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +74,9 @@
 		E48EA980222B460C00D4484B /* SCSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSDKLoginKit.framework; path = Pods/SnapSDK/SCSDKLoginKit.framework; sourceTree = "<group>"; };
 		E48EA981222B460C00D4484B /* SCSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSDKCoreKit.framework; path = Pods/SnapSDK/SCSDKCoreKit.framework; sourceTree = "<group>"; };
 		E48EA982222B460C00D4484B /* SCSDKCreativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSDKCreativeKit.framework; path = Pods/SnapSDK/SCSDKCreativeKit.framework; sourceTree = "<group>"; };
+		E4A0B721222B7CFD00E26CE4 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		E4A0B723222BAF3800E26CE4 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		E4A0B725222BBC5B00E26CE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +139,18 @@
 			children = (
 				E48EA96A222B3FD900D4484B /* AppDelegate.swift */,
 				E48EA96C222B3FD900D4484B /* ViewController.swift */,
+				E4A0B723222BAF3800E26CE4 /* UIImage+Extension.swift */,
+				E48D9254222C51730009A3FC /* Ranking+CoreDataClass.swift */,
+				E48D9252222C51640009A3FC /* Ranking+CoreDataProperties.swift */,
 				E48EA96E222B3FD900D4484B /* Main.storyboard */,
+				E48D9256222C52D50009A3FC /* RankingViewController.swift */,
+				E48D925C222C56610009A3FC /* RankingModel.swift */,
+				E48D925A222C54ED0009A3FC /* RankingTableViewCell.swift */,
+				E4655025222BFAA5000F5DBA /* ResultsViewController.swift */,
+				E4A0B721222B7CFD00E26CE4 /* UserEntity.swift */,
+				E4655027222C0B81000F5DBA /* FactsApiCall.swift */,
 				E48EA974222B3FDB00D4484B /* Assets.xcassets */,
+				E4A0B725222BBC5B00E26CE4 /* GameViewController.swift */,
 				E48EA976222B3FDB00D4484B /* LaunchScreen.storyboard */,
 				E48EA979222B3FDB00D4484B /* Info.plist */,
 				E48EA971222B3FD900D4484B /* Hacktechproj.xcdatamodeld */,
@@ -261,7 +291,17 @@
 			files = (
 				E48EA96D222B3FD900D4484B /* ViewController.swift in Sources */,
 				E48EA96B222B3FD900D4484B /* AppDelegate.swift in Sources */,
+				E48D925B222C54ED0009A3FC /* RankingTableViewCell.swift in Sources */,
+				E4A0B724222BAF3800E26CE4 /* UIImage+Extension.swift in Sources */,
+				E48D925D222C56610009A3FC /* RankingModel.swift in Sources */,
+				E4655026222BFAA5000F5DBA /* ResultsViewController.swift in Sources */,
+				E48D9255222C51740009A3FC /* Ranking+CoreDataClass.swift in Sources */,
+				E4655028222C0B81000F5DBA /* FactsApiCall.swift in Sources */,
 				E48EA973222B3FD900D4484B /* Hacktechproj.xcdatamodeld in Sources */,
+				E4A0B726222BBC5B00E26CE4 /* GameViewController.swift in Sources */,
+				E48D9253222C51640009A3FC /* Ranking+CoreDataProperties.swift in Sources */,
+				E4A0B722222B7CFE00E26CE4 /* UserEntity.swift in Sources */,
+				E48D9257222C52D50009A3FC /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
